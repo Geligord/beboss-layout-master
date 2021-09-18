@@ -1,0 +1,736 @@
+.main-video-vote {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #ECEEF2 0%, rgba(236, 238, 242, 0) 100%);
+    margin-bottom: 118px;
+    padding: 0px 48px 0px 48px;
+    width: 1216px;
+}
+.contest-emblem {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 26px 2px;
+}
+.con-emblem {
+    margin-right: 18px;
+}
+.con-text {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.contest-beboss {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.best-video {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.video-about {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+.main-video {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 124px;
+}
+.video-itself {
+    margin-right: 32px;
+}
+.video-vote {
+    display: flex;
+    flex-direction: column;
+}
+.vote {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.vote-advice {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.vote-links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.vote-fb, .vote-vk, .vote-ok {
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 18px 48px 18px 75px;
+    border-radius: 50px;
+}
+.vote-fb {
+    background: #1F3B74;
+    margin-bottom: 8px;
+}
+.vote-vk {
+    background: #27466A;
+    margin-bottom: 8px;
+}
+.vote-ok {
+    background: #D06313;
+    margin-bottom: 16px;
+}
+.fb-icon, .vk-icon, .ok-icon {
+    position: absolute;
+    border-radius: 50px;
+}
+.fb-icon {
+    padding: 15px 22px 12px 21px;
+    top: 0px;
+    left: 0px;
+    background: #3B5998;
+}
+.vk-icon {
+    padding: 16px 14px 20px 14px;
+    top:68px;
+    left: 0px;
+    background: #4C6C91;
+}
+.ok-icon {
+    padding: 15px 21px 15px 21px;
+    top: 137px;
+    left: 0px;
+    background: #F68634;
+}
+.vote-amount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    width: 256px;
+    text-align: center;
+}
+.adver-card {
+    position: absolute;
+    top: 716px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+.adver-card img {
+    margin-right: 32px;
+}
+.adver-info {
+    display: flex;
+    flex-direction: column;
+    width: 502px;
+    margin-right: 154px;
+}
+.personal-info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 9px 0px 8px 0px;
+}
+.invest-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:8px;
+}
+.franchise-page {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.franchise-page img {
+    margin-left: 17px;
+}
+.agent-info {
+    display: flex;
+    flex-direction: column;
+}
+.agent-description {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.agent-short-info {
+    display: flex;
+    flex-direction: column;
+}
+.agent-photo img {
+    margin-right: 8px;
+}
+.agent-name {
+    width: 176px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.agent-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ask-finances {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0D870D;
+    border-radius: 6px;
+    padding: 13px 35px 13px 36px;
+}
+.main-text-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 48px 0px 48px;
+    width: 1216px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+.text-card-one {
+    width: 832px;
+    margin-right: 32px;
+}
+.about {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.text-card-one .franchise-page {
+    margin-bottom: 32px;
+}
+.franchise-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(30, 160, 30, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+.franchise-cost {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.franchise-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+}
+.franchise-info-question {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.franchise-question {
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.52);
+    margin-right: 24px;
+}
+.franchise-answer {
+    width: 560px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.finplan-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.finplan-info img {
+    margin-right: 16px;
+}
+.finplan-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.about-franchise {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 16px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+}
+.about-franchise-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.about-franchise-text ul {
+    list-style: disc inside;
+}
+.photos-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+.photos-list img {
+    margin-right: 16px;
+}
+.photos1, .photos2 {
+    display: flex;
+    flex-direction: row;
+}
+.send-form {
+    display: flex;
+    flex-direction: row;
+}
+.send-form-card {
+    display: flex;
+    flex-direction: column;
+    background: #ECEEF2;
+    border-radius: 16px;
+    padding: 24px;
+}
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+.submit-form form {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+}
+.submit-form input {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    height: 42px;
+    margin-bottom: 8px;
+    padding: 9px 12px 9px 44px;
+}
+.submit-form input[type=text] {
+    background-image: url('../img/person.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+.submit-form input[type=email] {
+    background-image: url('../img/e-mail.svg');
+    background-repeat: no-repeat;
+    background-position: 12px 10px;
+}
+.submit-form input[type=tel] {
+    background-image: url('../img/tel.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+.submit-form textarea {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    padding: 9px 12px 15px 12px;
+}
+textarea::placeholder {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.robot-check {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 376px;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.iamrobot {
+    display: flex;
+    flex-direction: row;
+}
+.iamrobot input {
+    cursor: pointer;
+}
+.custom-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 32px;
+    height: 32px;
+}
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+}
+  .custom-checkbox+label::before {
+    content: '';
+    width: 32px !important;
+    height: 32px !important;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-right: 8px;
+}
+.custom-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.sft-check {
+    width: 89px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.52);
+    margin-left: 133px;
+}
+.send-message {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 98px 13px 98px;
+    background: #0D870D;
+    border-radius: 6px;
+    width: 376px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.safe-data {
+    display: flex;
+    flex-direction: row;
+}
+.safe-data img {
+    margin-right: 16px;
+}
+.data-text {
+    width: 325px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+.form-info {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+}
+.what-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.theme {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    position: relative;
+}
+.theme img {
+    position: absolute;
+    top: 5px;
+}
+.this-what {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.text-card-two {
+    width: 256px;
+}
+.stats {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.answer {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.question {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.other-people {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 48px 0px 48px;
+    width: 1216px;
+}
+.other {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+.people-list {
+    display: flex;
+    flex-direction: row;
+}
+.person-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.person-card:last-of-type {
+    margin-right: 0px;
+}
+.person-card > img {
+    margin-bottom: 16px;
+}
+.person-company {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.what-company {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.watch-vote {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.watch {
+    margin-right: 17px;
+}
+.check-all-people {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 24px 13px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    width: 240px;
+    height: 50px;
+    margin-bottom: 39px;
+}
+@media screen and (max-width: 1000px) {
+    .main-text-card, .main-video-vote, .other-people, .adver-card {
+        width: 375px;
+        padding: 0px 16px 0px 16px;
+    }
+    .main-video {
+        flex-direction: column;
+        height: 450px;
+    }
+    .video-about {
+        width: 343px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .video-itself {
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+    .video-itself img {
+        width: 100%;
+        height: 100%;
+    }
+    .vote {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .vote-advice {
+        text-align: center;
+    }
+    .vote-fb, .vote-vk, .vote-ok {
+        display: none;
+    }
+    .fb-icon, .vk-icon, .ok-icon {
+        position: relative;
+        top: 0px;
+        margin-right: 8px;
+    }
+    .vote-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .vote-amount {
+        display: none;
+    }
+    .adver-card {
+        width: 343px;
+        flex-direction: column;
+    }
+    .adver-info {
+        width: 295px;
+        padding: 0px 0px 24px 0px;
+        margin-bottom: 24px;
+        margin-right: 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .adver-card .main-img {
+        padding: 24px 96px 16px 96px;
+        width: 100%;
+        height: 100%;
+    }
+    .personal-info, .invest-info, .franchise-page {
+        text-align: center;
+        width: 295px;
+    }
+    .person-info {
+        margin: 0px;
+    }
+    .franchise-page img {
+        margin: 0px;
+    }
+    .agent-description {
+        justify-content: center;
+    }
+    .ask-finances {
+        margin-bottom: 24px;
+    }
+    .main-text-card {
+        padding: 0px 16px 0px 16px;
+        margin: 0px;
+    }
+    .text-card-one {
+        width: 343px;
+        margin-top: 380px;
+    }
+    .text-card-two {
+        display: none;
+    }
+    .text-about {
+        margin-bottom: 16px;
+    }
+    .text-card-one .franchise-page {
+        text-align: start;
+    }
+    .franchise-card {
+        width: 343px;
+    }
+    .franchise-info-question {
+        flex-direction: column;
+    }
+    .franchise-answer {
+        width: 295px;
+    }
+    .not-mobile {
+        display: none;
+    }
+    .photos-list {
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+        margin-bottom: 32px;
+    }
+    .photos-list img {
+        width: 167px;
+        height: 167px;
+        margin-right: 8px;
+    }
+    .photos1 {
+        margin-bottom: 8px;
+    }
+    .send-form-card input[type=text], input[type=tel], input[type=email], textarea, .robot-check, .send-message, .safe-data {
+        width: 295px;
+    }
+    .send-message {
+        padding: 13px 56px 13px 57px;
+    }
+    .sft-check {
+        margin-left: 50px;
+    }
+    .safe-data {
+        padding-bottom: 24px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
+        margin-bottom: 24px;
+    }
+    .safe-data img {
+        margin: 0px;
+    }
+    .data-text {
+        max-height: 40px;
+    }
+    .send-form {
+        flex-direction: column;
+    }
+    .what-text {
+        width: 295px;
+        text-align: center;
+    }
+    .this-what {
+        width: 263px;
+    }
+    .other-people {
+        width: 375px;
+        overflow: hidden;
+    }
+    .other {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .main-text-card {
+        border: none;
+    }
+    .person-card img {
+        width: 300px;
+        height: 170px;
+    }
+    .person-card {
+        width: 300px;
+    }
+    .watch {
+        width: 250px;
+        height: 24px;
+    }
+    .watch-vote {
+        width: 250px;
+        height: 24px;
+    }
+    .watch-vote img {
+        width: 25px;
+        height: 24px;
+    }
+    .check-all-people {
+        padding: 13px 75.5px 13px 75.5px;
+        width: 343px;
+        height: 50px;
+        margin-bottom: 39px;
+    }
+}
